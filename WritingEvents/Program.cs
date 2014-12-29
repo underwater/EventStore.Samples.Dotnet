@@ -26,9 +26,10 @@ namespace WritingEvents
     {
         static void Main(string[] args)
         {
-            const string STREAM = "writing_test";
+            const string STREAM = "a_test_stream";
             const int DEFAULTPORT = 1113;
-            var settings = ConnectionSettings.Create().EnableVerboseLogging().UseConsoleLogger();
+            //uncommet to enable verbose logging in client.
+            var settings = ConnectionSettings.Create();//.EnableVerboseLogging().UseConsoleLogger();
             using (var conn = EventStoreConnection.Create(settings, new IPEndPoint(IPAddress.Loopback, DEFAULTPORT)))
             {
                 conn.ConnectAsync().Wait();

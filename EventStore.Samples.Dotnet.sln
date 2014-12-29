@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WritingEvents", "WritingEvents\WritingEvents.csproj", "{9CEAEB22-90B5-4CF0-B9BB-9327DAE70D7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VolatileSubscription", "VolatileSubscription\VolatileSubscription.csproj", "{611FC351-D113-4365-9F66-84ABB9BC51F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9CEAEB22-90B5-4CF0-B9BB-9327DAE70D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CEAEB22-90B5-4CF0-B9BB-9327DAE70D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CEAEB22-90B5-4CF0-B9BB-9327DAE70D7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{611FC351-D113-4365-9F66-84ABB9BC51F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{611FC351-D113-4365-9F66-84ABB9BC51F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{611FC351-D113-4365-9F66-84ABB9BC51F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{611FC351-D113-4365-9F66-84ABB9BC51F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
