@@ -25,7 +25,7 @@ namespace VolatileSubscription
         {
             const string STREAM = "a_test_stream";
             const int DEFAULTPORT = 1113;
-            //uncommet to enable verbose logging in client.
+            //uncomment to enable verbose logging in client.
             var settings = ConnectionSettings.Create();//.EnableVerboseLogging().UseConsoleLogger();
             using (var conn = EventStoreConnection.Create(settings, new IPEndPoint(IPAddress.Loopback, DEFAULTPORT)))
             {
