@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WritingEvents", "WritingEve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VolatileSubscription", "VolatileSubscription\VolatileSubscription.csproj", "{611FC351-D113-4365-9F66-84ABB9BC51F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatchupSubscription", "CatchupSubscription\CatchupSubscription.csproj", "{38AD531F-A4CA-4D68-B2C3-2612D72A103D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{611FC351-D113-4365-9F66-84ABB9BC51F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{611FC351-D113-4365-9F66-84ABB9BC51F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{611FC351-D113-4365-9F66-84ABB9BC51F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38AD531F-A4CA-4D68-B2C3-2612D72A103D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38AD531F-A4CA-4D68-B2C3-2612D72A103D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38AD531F-A4CA-4D68-B2C3-2612D72A103D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38AD531F-A4CA-4D68-B2C3-2612D72A103D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
