@@ -49,8 +49,8 @@ namespace WritingEvents
                 Guid.NewGuid(),
                 "eventType",
                 true,
-                Encoding.ASCII.GetBytes("{'somedata' : " + i + "}"),
-                Encoding.ASCII.GetBytes("{'metadata' : " + i + "}")
+                Encoding.ASCII.GetBytes("{\'somedata\' : " + i + "}"),
+                Encoding.ASCII.GetBytes("{\'metadata\' : " + i + "}")
                 );
         }
     }
