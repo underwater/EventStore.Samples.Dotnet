@@ -1,4 +1,4 @@
-EventStore.Samples.Dotnet
+ EventStore.Samples.Dotnet
 =========================
 
 Samples with the dotnetapi
